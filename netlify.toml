@@ -6,3 +6,8 @@
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
+[[headers]]
+  for="/*"
+  [headers.values]
+    my-custom-header = "Works!"
+    link = "</fonts/Roboto-mono-v22-latin-regular.woff2>; rel=preload; as=font,</fonts/Inter-subset.woff2>; rel=preload; as=font"
