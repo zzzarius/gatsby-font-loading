@@ -14,8 +14,8 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
-        <link rel="preload" href="/fonts/Inter-subset.woff2" as="font" type="font/woff2" />
-        <link rel="preload" href="/fonts/Roboto-mono-v22-latin-regular.woff2" as="font" type="font/woff2" />
+        <link rel="preload" href="/fonts/Inter-subset.woff2" as="font" type="font/woff2" crossOrigin=""/>
+        <link rel="preload" href="/fonts/Roboto-mono-v22-latin-regular.woff2" as="font" type="font/woff2" crossOrigin=""/>
         <link
           rel="stylesheet"
           type="text/css"
