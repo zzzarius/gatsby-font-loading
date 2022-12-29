@@ -14,7 +14,6 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
-        <link rel="preload" href="/fonts/styles.css" as="style" />
         <link
           rel="stylesheet"
           type="text/css"
@@ -26,7 +25,6 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           charset="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
-        <link rel="stylesheet" href="/fonts/styles.css" />
       </Helmet>
 
       <Header />
