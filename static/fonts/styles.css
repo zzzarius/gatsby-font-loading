@@ -1,0 +1,48 @@
+/* Inter - regular */
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(Inter-subset.woff2) format("woff2"),
+         url(Inter-subset.zopfli.woff) format("woff");
+    unicode-range: U+0-17F,U+2BB,U+2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* Inter - medium */
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(Inter-subset.woff2) format("woff2"),
+         url(Inter-subset.zopfli.woff) format("woff");
+    unicode-range: U+0-17F,U+2BB,U+2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* Inter - bold */ 
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(Inter-subset.woff2) format("woff2"),
+         url(Inter-subset.zopfli.woff) format("woff");
+    unicode-range: U+0-17F,U+2BB,U+2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* Roboto Mono - Regular */ 
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Roboto-mono-v22-latin-regular.woff2") format("woff2"),
+         url("./Roboto-mono-v22-latin-regular.woff") format("woff");
+}
+/* Roboto Mono - Italic */ 
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Roboto-mono-v22-latin-regular.woff2") format("woff2"),
+         url("./Roboto-mono-v22-latin-regular.woff") format("woff");
+}
