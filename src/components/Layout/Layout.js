@@ -14,7 +14,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
     <>
       <Helmet>
         {/* Add any sitewide scripts here */}
-        {/* <link rel="preload" href="/fonts/styles.css" as="style" /> */}
+        <link rel="preload" href="/fonts/styles.css" as="style" />
         <link
           rel="stylesheet"
           type="text/css"

@@ -5,8 +5,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-gatsby"
-
-[[headers]]
-  for="/"
-  [headers.values]
-    link = "</fonts/styles.css>; rel=preload; as=style"
